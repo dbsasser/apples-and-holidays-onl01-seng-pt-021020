@@ -75,9 +75,9 @@ def all_supplies_in_holidays(holiday_hash)
           holiday_name.map! do |word|
            word.capitalize!
           end
-        holiday_name.join(" ")
+       
         
-        puts "  #{holiday_name}: #{supplies} "
+        puts "  #{holiday_name.join(" ")}: #{supplies} "
       end
   end
  
